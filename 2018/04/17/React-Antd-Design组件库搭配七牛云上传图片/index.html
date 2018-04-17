@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="GzhiYi">
 <meta property="og:description" content="注册七牛云 常规地去注册七牛云，新建一个存储空间需要身份证认证。 新建一个存储空间为：images。 获取对应的上传凭证。可以在这生成。 ak和sk在个人中心的密钥管理中找到。 bucketName就是存储空间名字。Antd Design中的Upload组件12345678910111213141516171819202122232425262728293031323334353637383940">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-17T08:16:47.902Z">
+<meta property="og:updated_time" content="2018-04-17T08:19:39.323Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="React Antd Design组件库搭配七牛云上传图片">
 <meta name="twitter:description" content="注册七牛云 常规地去注册七牛云，新建一个存储空间需要身份证认证。 新建一个存储空间为：images。 获取对应的上传凭证。可以在这生成。 ak和sk在个人中心的密钥管理中找到。 bucketName就是存储空间名字。Antd Design中的Upload组件12345678910111213141516171819202122232425262728293031323334353637383940">
@@ -102,8 +102,8 @@
 <ol>
 <li><code>beforeUpload</code> 可以对上传图片做一些限制，限制格式、大小等都在这个函数做处理。</li>
 <li><code>handleAvatarChange</code> 上传图片回调，在这里处理返回的数据。</li>
-<li>Upload组件的名字必须是file，否则服务器将200错误。</li>
-<li>action为文件上传的api，对应要看自己建立的存储空间地区。具体看：<a href="https://developer.qiniu.com/kodo/manual/1671/region-endpoint" target="_blank" rel="noopener">地区api</a>.</li>
+<li>Upload组件的name必须是file，否则服务器将200错误。</li>
+<li>action为文件上传的api，对应要看自己建立的存储空间地区。具体看：<a href="https://developer.qiniu.com/kodo/manual/1671/region-endpoint" target="_blank" rel="noopener">地区api</a>。</li>
 <li>直白的在前端暴露上传凭证（<code>uploadData</code>）是不行的，时间不多，仅作为例子使用。正确应当在服务端处理。</li>
 <li>handleAvatarChange 回调当 <code>info.file.status === &#39;done&#39;</code> 就可以了拿到七牛云返回的数据，数据包含一个hash和一个key。  </li>
 <li>将hash和外链默认域名（七牛云-存储空间列表-内容管理）拼接就可以了使用上传的图片外链了。</li>
@@ -112,7 +112,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://gzhiyi.github.io/2018/04/17/React-Antd-Design组件库搭配七牛云上传图片/" data-id="cjg3ecce70001rvji7tvt33rn" class="article-share-link">Share</a>
+      <a data-url="https://gzhiyi.github.io/2018/04/17/React-Antd-Design组件库搭配七牛云上传图片/" data-id="cjg3edm7100013djiar83k3z7" class="article-share-link">Share</a>
       
       
     </footer>
