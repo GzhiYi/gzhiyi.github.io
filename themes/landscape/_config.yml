@@ -35,3 +35,12 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+social: 
+  Wechat: Yi745285458
+  Github: https://github.com/GzhiYi
+
+social_icons:
+  enable: true
+  Github: github
+  Wechat: wechat
