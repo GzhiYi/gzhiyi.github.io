@@ -4,9 +4,9 @@
 
 # Site
 title: GzhiYi
-subtitle: 未知的在外太空
-description: My personal blog in github
-keywords:
+subtitle: 
+description: 前端 | React 
+keywords: GzhiYi 博客
 author: GzhiYi
 language: zh-Hans
 timezone:
@@ -81,5 +81,3 @@ deploy:
   type: git
   repo: git@github.com:GzhiYi/gzhiyi.github.io.git
   branch: master
-
-disqus_shortname: gzhiyi-blog
