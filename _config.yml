@@ -5,7 +5,7 @@
 # Site
 title: GzhiYi
 subtitle: 
-description: 前端 | React 
+description: 前端
 keywords: GzhiYi 博客
 author: GzhiYi
 language: zh-Hans
@@ -74,6 +74,12 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
+
+# Social links
+social:
+  GitHub: https://github.com/GzhiYi
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
