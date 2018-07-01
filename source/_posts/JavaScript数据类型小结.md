@@ -2,6 +2,7 @@
 title: JavaScript数据类型小结
 date: 2018-06-20 09:27:39
 tags: JavaScript
+categories: JavaScript
 ---
 ### 概要
 JavaScript有五种基本数据类型，一种复杂数据类型。（ES6增加了Symbol）。

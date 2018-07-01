@@ -2,7 +2,7 @@
   {% set current = date(Date.now(), "YYYY") %}
   &copy; {% if theme.since and theme.since != current %} {{ theme.since }} - {% endif %}
   <span itemprop="copyrightYear">{{ current }}</span>
-  <span class="with-love">
+  <span class="with-love" style="color: #ef5151;">
     <i class="fa fa-{{ theme.authoricon }}"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>

@@ -2,6 +2,7 @@
 title: JavaScript迭代方法
 date: 2018-06-22 10:34:20
 tags: JavaScript
+categories: JavaScript
 ---
 ### JavaScript迭代
 JavaScript迭代方法有几个，每个的作用都不尽相同，对于业务写的多的，很有必要总结下各个迭代方法的不同点。先看看几个迭代方法的"硬描述"。
@@ -65,6 +66,24 @@ let result = array.some((item, index) => {
 })
 console.log(result)      // true，有true返回的话，result就为true
 // 用的少，整体思路是数组内部有ture或者经过遍历内部有返回true的，结果都为true
+```
+
+#### reduce() 补充
+```javascript
+let array = [1, 2, 3, 4, 5]
+let result = array.reduce((pre, cur, index) => {
+  return pre + cur
+})
+console.log(result)   // 15
+// 这一个迭代函数有些特殊，它最后返回一个值。同时参数也比较特殊，分别是上一个返回值pre，当前值cur，下标等。
+// 当然，稍微想一下，这个遍历的话到底是怎么开始的呢，我们在return语句前加一行代码打印值。
+console.log(pre, cur, index)
+// 结果：
+// 1 2 1
+// 3 3 2
+// 6 4 3
+//10 5 4
+// 从上面可以看出，index为0是不会打印出来的，直接从index 为1开始计算，整体遍历次数为数组长度 - 1，虽说如此，但数组每一项都进行了操作。
 ```
 **小结**
 以上迭代方法都不会更改原数组的值，请您放心使用。  

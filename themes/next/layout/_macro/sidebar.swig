@@ -34,8 +34,10 @@
           <p class="site-author-name" itemprop="name">{{ theme.author }}</p>
            {% if theme.seo %}
               <p class="site-description motion-element" itemprop="description">{{ theme.signature }}</p>
+              <img onclick="window.open('https://www.codewars.com/users/GzhiYi')" style="margin-bottom: 20px;cursor: pointer" src="https://www.codewars.com/users/GzhiYi/badges/micro" alt="codewar badges"/>
            {% else %}
               <p class="site-description motion-element" itemprop="description">{{ theme.description }}</p>
+              <img onclick="window.open('https://www.codewars.com/users/GzhiYi')" style="margin-bottom: 20px;cursor: pointer" src="https://www.codewars.com/users/GzhiYi/badges/micro" alt="codewar badges"/>
           {% endif %}
         </div>
         <nav class="site-state motion-element">
@@ -85,7 +87,7 @@
         <div class="links-of-author motion-element">
           {% if theme.social %}
             {% for name, link in theme.social %}
-              <span class="links-of-author-item">
+              <span class="links-of-author-item" style="text-align: center">
                 <a href="{{ link }}" target="_blank" title="{{ name }}">
                   {% if theme.social_icons.enable %}
                     <i class="fa fa-fw fa-{{ theme.social_icons[name] | default('globe') | lower }}"></i>

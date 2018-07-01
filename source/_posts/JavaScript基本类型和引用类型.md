@@ -2,6 +2,7 @@
 title: JavaScript基本类型和引用类型
 date: 2018-06-21 12:14:23
 tags: JavaScript
+categories: JavaScript
 ---
 ### 前言
 JavaScript变量有可能是两种不同的类型的值，既可以是基本类型，也可以是引用类型。对于这一块的知识还比较薄弱，有必要以摘录和理解的形式写下来。

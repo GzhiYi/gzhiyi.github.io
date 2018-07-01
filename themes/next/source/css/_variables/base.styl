@@ -2,7 +2,9 @@
 // Variables
 // =================================================
 
-
+// Methods
+random(a,b)
+  return math(math(0, 'random')*(b - a + 1) + a, 'floor')
 
 // Colors
 // colors for use across theme.
@@ -17,7 +19,7 @@ $grey-dark    = #999
 $grey-dim     = #666
 $black-light  = #555
 $black-dim    = #333
-$black-deep   = #222
+$black-deep   = rgba(random(0,255),random(0,255),random(0,255),random(22,212))
 $red          = #ff2a2a
 $blue-bright  = #87daff
 $blue         = #0684bd
