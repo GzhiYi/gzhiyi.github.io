@@ -10,6 +10,9 @@ tags:
 3. 获取对应的上传凭证。[可以在这生成](http://jsfiddle.net/b0zt725o/3/)。
 4. ak和sk在个人中心的密钥管理中找到。
 5. bucketName就是存储空间名字。
+
+<!--more-->
+
 ### Antd Design中的Upload组件
 ```javascript
 class UploadDemo extends Components {

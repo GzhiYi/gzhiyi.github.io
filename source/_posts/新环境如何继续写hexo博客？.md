@@ -14,6 +14,9 @@ git commit -m "added source-code branch"
 git push origin source-code
 ```
 之后代码将同步到github。
+
+<!--more-->
+
 2. 新电脑拉代码，切到source-code分之
 ```bash
 git checkout source-code

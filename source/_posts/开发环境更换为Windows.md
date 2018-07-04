@@ -6,6 +6,9 @@ tags:
 ## 工作需要，开发环境更换为Windows
 ### 一开始不太习惯  
 大概用了半年多的Linux，从一开始用的Ubuntu 16.04到用的最长时间的Linux mint。习惯了在Linux上搭建前端开发环境。各种开发库都在Terminal里面安装。除了个别软件不支持外，用起来还是很舒服很稳定的。微信可以用[electronic-wechat](https://github.com/geeeeeeeeek/electronic-wechat)代替，fq有qt5的ss。没办法的是，Linux对QQ支持不好，而且之后要开发小程序，为了比较稳定的工作环境，所以我还是选择回到Windows。
+
+<!--more-->
+
 ### 对于前端开发而言，需要的其实不多
 * vscode
 * node

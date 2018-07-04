@@ -15,6 +15,9 @@ categories: "Linux"
 * terminal-修改复制粘贴快捷键习惯
     ctrl + shift + c --> ctrl + c  
 * 创建ssh key  
+
+<!--more-->
+
 [粘贴到此处](https://github.com/settings/keys)
 ```
 sh-keygen

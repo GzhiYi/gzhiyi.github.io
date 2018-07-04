@@ -38,7 +38,10 @@ let person = new Child()
 console.log(person.getParentName()) // 'Parent'
 console.log(person.getChildName()) // 'Child'
 ```
-以上就是原型链继承的简单例子。  
+以上就是原型链继承的简单例子。 
+
+<!--more-->
+
 另外，要注意继承后的几点：
 1. 子实例的构造函数指向父构造函数。
 ```javascript

@@ -9,6 +9,8 @@ JavaScript有五种基本数据类型，一种复杂数据类型。（ES6增加�
 1. 五种基本数据类型：`Undefined`、`Null`、`Boolean`、`Number`、`String`。
 2. 一种复杂数据类型：`Object`。
 
+<!--more-->
+
 ### 类型判断 typeof
 typeof操作符返回的是一个string。
 ```javascript

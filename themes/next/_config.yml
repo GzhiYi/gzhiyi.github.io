@@ -52,6 +52,7 @@ menu:
   archives: /archives/
   tags: /tags/
   categories: /categories
+  talk: /talk
   #sitemap: /sitemap.xml
   #commonweal: /404/
 
@@ -71,6 +72,7 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
+  talk: comments
 
 
 # ---------------------------------------------------------------
