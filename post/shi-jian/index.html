@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>GzhiYi</title>
+<title>时间 | GzhiYi</title>
 <link rel="shortcut icon" href="https://gzhiyi.top//favicon.ico?v=1555918419474">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://gzhiyi.top//styles/main.css">
@@ -62,33 +62,57 @@
   </div>
 </div>
 
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://gzhiyi.top//post/shi-jian">
-        <h2 class="post-title">时间</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2019-04-22 ·
-        </time>
-        
-      </div>
       
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-</div>
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              时间
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2019-04-22 ·
+              </time>
+              
+            </div>
+            
+            <div class="post-content">
+              <p>转眼间，时间真的很快。
+明天复联4就要上映了，自己一个人去看，以前要注定的事情却没有继续发生下去。
+要是能一起看该有多好。</p>
 
+            </div>
+          </article>
+        </div>
     
-        <div class="pagination-container">
-  
-  
-</div>
+        
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '04772c32bf17e366f94f',
+    clientSecret: 'f36907e1e3b8017abf259a0266b6554bc0293481',
+    repo: 'gzhiyi.github.io',
+    owner: 'GzhiYi',
+    admin: ['GzhiYi'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
     
         <div class="site-footer">
   Powered by enthusiasm.
