@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://gzhiyi.top/</id>
+    <title>GzhiYi</title>
+    <updated>2020-05-19T10:04:59.571Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://gzhiyi.top/"/>
+    <link rel="self" href="https://gzhiyi.top/atom.xml"/>
+    <subtitle>我一点代码都不会，我要好好过生活。</subtitle>
+    <logo>https://gzhiyi.top/images/avatar.png</logo>
+    <icon>https://gzhiyi.top/favicon.ico</icon>
+    <rights>All rights reserved 2020, GzhiYi</rights>
+    <entry>
+        <title type="html"><![CDATA[时间]]></title>
+        <id>https://gzhiyi.top/post/shi-jian/</id>
+        <link href="https://gzhiyi.top/post/shi-jian/">
+        </link>
+        <updated>2019-04-22T07:32:03.000Z</updated>
+        <content type="html"><![CDATA[<p>转眼间，时间真的很快。<br>
+明天复联4就要上映了，自己一个人去看，以前要注定的事情却没有继续发生下去。</p>
+]]></content>
+    </entry>
+</feed>
